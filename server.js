@@ -11,7 +11,8 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Database
-const db = new sqlite3.Database("./database.db");
+const db = new sqlite3.Database("/data/database.db");
+
 
 db.run(`
   CREATE TABLE IF NOT EXISTS users (
