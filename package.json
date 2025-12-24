@@ -1,0 +1,10 @@
+{
+  "name": "simple-web-db",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
